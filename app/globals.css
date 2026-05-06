@@ -7,7 +7,7 @@
   --color-f1-red-dark: #3a5bbf;
   --color-f1-red-glow: rgba(160, 217, 248, 0.4);
   --color-f1-red-subtle: rgba(160, 217, 248, 0.1);
-  
+
   --color-carbon-950: #0a0a0f;
   --color-carbon-900: #0a0a0a;
   --color-carbon-800: #111111;
@@ -18,13 +18,13 @@
   --color-carbon-300: #444444;
   --color-carbon-200: #666666;
   --color-carbon-100: #999999;
-  
+
   --color-tyre-soft: #FF3333;
   --color-tyre-medium: #FFC906;
   --color-tyre-hard: #FFFFFF;
   --color-tyre-inter: #39B54A;
   --color-tyre-wet: #0072C6;
-  
+
   --color-team-redbull: #3671C6;
   --color-team-mercedes: #6CD3BF;
   --color-team-ferrari: #F91536;
@@ -48,7 +48,7 @@
   --f1-red-dark: #3a5bbf;
   --f1-red-glow: rgba(160, 217, 248, 0.4);
   --f1-red-subtle: rgba(160, 217, 248, 0.1);
-  
+
   --carbon-950: #0a0a0f;
   --carbon-900: #0a0a0a;
   --carbon-800: #111111;
@@ -59,22 +59,22 @@
   --carbon-300: #444444;
   --carbon-200: #666666;
   --carbon-100: #999999;
-  
+
   --white: #ffffff;
-  --white-90: rgba(255,255,255,0.9);
-  --white-70: rgba(255,255,255,0.7);
-  --white-50: rgba(255,255,255,0.5);
-  --white-30: rgba(255,255,255,0.3);
-  --white-10: rgba(255,255,255,0.1);
-  --white-05: rgba(255,255,255,0.05);
-  
+  --white-90: rgba(255, 255, 255, 0.9);
+  --white-70: rgba(255, 255, 255, 0.7);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-30: rgba(255, 255, 255, 0.3);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --white-05: rgba(255, 255, 255, 0.05);
+
   /* Tyre Colors */
   --tyre-soft: #FF3333;
   --tyre-medium: #FFC906;
   --tyre-hard: #FFFFFF;
   --tyre-inter: #39B54A;
   --tyre-wet: #0072C6;
-  
+
   /* Team Colors */
   --team-redbull: #3671C6;
   --team-mercedes: #6CD3BF;
@@ -86,14 +86,14 @@
   --team-haas: #B6BABD;
   --team-sauber: #52E252;
   --team-rb: #6692FF;
-  
+
   /* Gradients */
   --gradient-f1: linear-gradient(135deg, #a0d9f8 0%, #3a5bbf 100%);
   --gradient-carbon: linear-gradient(180deg, var(--carbon-700) 0%, var(--carbon-900) 100%);
   --gradient-dark: linear-gradient(135deg, var(--carbon-800) 0%, var(--carbon-900) 100%);
-  --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
-  --gradient-shine: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
-  
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
+  --gradient-shine: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+
   /* Spacing */
   --space-xs: 4px;
   --space-sm: 8px;
@@ -102,26 +102,26 @@
   --space-xl: 32px;
   --space-2xl: 48px;
   --space-3xl: 64px;
-  
+
   /* Border Radius */
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 16px;
   --radius-xl: 24px;
   --radius-full: 9999px;
-  
+
   /* Shadows */
-  --shadow-card: 0 4px 24px rgba(0,0,0,0.4);
-  --shadow-elevated: 0 8px 32px rgba(0,0,0,0.6);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.6);
   --shadow-glow: 0 0 20px var(--f1-red-glow);
   --shadow-glow-sm: 0 0 10px var(--f1-red-glow);
-  
+
   /* Transitions */
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
   --transition-slow: 400ms ease;
   --transition-spring: 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
-  
+
   /* Typography */
   --font-display: 'Orbitron', sans-serif;
   --font-body: 'Inter', -apple-system, sans-serif;
@@ -185,10 +185,10 @@ a {
 
 /* ===== GLASSMORPHISM UTILITY ===== */
 .glass-card {
-  background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.02) 100%);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-lg);
   padding: var(--space-lg);
   transition: all var(--transition-base);
@@ -266,7 +266,7 @@ a {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
   transition: left var(--transition-slow);
 }
 
@@ -430,12 +430,21 @@ a {
 
 /* Animations */
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.6; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
 }
 
 @keyframes fadeInUp {
@@ -443,6 +452,7 @@ a {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -454,6 +464,7 @@ a {
     opacity: 0;
     transform: translateX(30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -461,27 +472,47 @@ a {
 }
 
 @keyframes countDown {
-  from { transform: scale(1.2); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes glow {
-  0%, 100% { 
+
+  0%,
+  100% {
     box-shadow: 0 0 5px var(--f1-red-glow);
   }
-  50% { 
+
+  50% {
     box-shadow: 0 0 20px var(--f1-red-glow), 0 0 40px rgba(160, 217, 248, 0.2);
   }
 }
 
 @keyframes racingLine {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(200%); }
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(200%);
+  }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 /* Skeleton Loading */
@@ -498,19 +529,40 @@ a {
   gap: var(--space-lg);
 }
 
-.grid-2 { grid-template-columns: repeat(2, 1fr); }
-.grid-3 { grid-template-columns: repeat(3, 1fr); }
-.grid-4 { grid-template-columns: repeat(4, 1fr); }
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
 
 @media (max-width: 1024px) {
-  .grid-4 { grid-template-columns: repeat(2, 1fr); }
-  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  .grid-4 { grid-template-columns: 1fr; }
-  .grid-3 { grid-template-columns: 1fr; }
-  .grid-2 { grid-template-columns: 1fr; }
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Fade In animation classes */
@@ -518,10 +570,25 @@ a {
   animation: fadeInUp 0.5s ease forwards;
 }
 
-.fade-in-delay-1 { animation-delay: 0.1s; opacity: 0; }
-.fade-in-delay-2 { animation-delay: 0.2s; opacity: 0; }
-.fade-in-delay-3 { animation-delay: 0.3s; opacity: 0; }
-.fade-in-delay-4 { animation-delay: 0.4s; opacity: 0; }
+.fade-in-delay-1 {
+  animation-delay: 0.1s;
+  opacity: 0;
+}
+
+.fade-in-delay-2 {
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.fade-in-delay-3 {
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.fade-in-delay-4 {
+  animation-delay: 0.4s;
+  opacity: 0;
+}
 
 /* Container */
 .container {
