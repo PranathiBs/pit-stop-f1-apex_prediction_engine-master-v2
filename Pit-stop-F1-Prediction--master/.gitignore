@@ -1,0 +1,35 @@
+# Build artifacts
+.nx/
+.x/
+.next/
+node_modules/
+dist/
+build/
+*.js.map
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+f1_cache/
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.local
+.env.*
+!.env.example
+*.pem
+
+# DS_Store
+.DS_Store
+
+# Sync / Data (Allow processed JSON and models for 'Forever' sync)
+!data/processed/*.json
+!models/*.joblib
+
+# Vercel
+.vercel
