@@ -30,17 +30,25 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts",
-    ".nx/types/**/*.ts",
-    ".nx/dev/types/**/*.ts",
-    ".x/types/**/*.ts",
-    ".x/dev/types/**/*.ts"
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
+    "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    ".next",
+    ".nx",
+    ".x",
+    ".agent",
+    ".venv",
+    "venv",
+    "data",
+    "docs",
+    "dist",
+    "build"
   ]
 }
