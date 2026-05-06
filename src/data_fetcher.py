@@ -12,9 +12,16 @@ from datetime import datetime, timezone
 from typing import Optional, Dict, Any
 
 # --- Config ---
-DATA_DIR = Path("data/processed")
+IS_SERVERLESS = "VERCEL" in os.environ or "AWS_LAMBDA_FUNCTION_NAME" in os.environ
+
+if IS_SERVERLESS:
+    DATA_DIR = Path("/tmp/data/processed")
+    CACHE_DIR = "/tmp/f1_cache"
+else:
+    DATA_DIR = Path("data/processed")
+    CACHE_DIR = "f1_cache"
+
 DATA_DIR.mkdir(parents=True, exist_ok=True)
-CACHE_DIR = "f1_cache"
 fastf1.Cache.enable_cache(CACHE_DIR)
 
 OPENWEATHER_API_KEY = os.getenv("NEXT_PUBLIC_OPENWEATHER_API_KEY", "")

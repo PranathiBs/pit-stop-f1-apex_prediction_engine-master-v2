@@ -26,7 +26,12 @@ except ImportError:
 # --- Config ---
 MODEL_CACHE = {}
 CURRENT_YEAR = datetime.now().year
-DATA_DIR = Path(__file__).parent.parent / "data" / "processed"
+IS_SERVERLESS = "VERCEL" in os.environ or "AWS_LAMBDA_FUNCTION_NAME" in os.environ
+
+if IS_SERVERLESS:
+    DATA_DIR = Path("/tmp/data/processed")
+else:
+    DATA_DIR = Path(__file__).parent.parent / "data" / "processed"
 
 # --- Lifespan ---
 @asynccontextmanager
