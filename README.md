@@ -70,7 +70,6 @@ To ensure the system is "Working" at all times, we use a multi-layered validatio
 
 ## 🏗️ Project Architecture
 
->>>>>>> f9e45cca5c52dc89d597f2b3d81c2fb8256def71
 ```text
 ├── .github/workflows/
 │   └── pipeline.yml         # CI/CD: Tests, Trains, and Commits updates
