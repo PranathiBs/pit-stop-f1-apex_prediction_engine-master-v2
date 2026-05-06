@@ -1,7 +1,5 @@
 # Pit Stop — The Future of F1 Strategy 🏎️
 
-![Pit Stop Banner](docs/images/banner.png)
-
 [![Pit Stop MLOps Pipeline](https://github.com/PranathiBs/Pit-stop-F1-Prediction-and-Gran-Prix-calendar--master/actions/workflows/pipeline.yml/badge.svg)](https://github.com/PranathiBs/Pit-stop-F1-Prediction-and-Gran-Prix-calendar--master/actions/workflows/pipeline.yml)
 [![Version](https://img.shields.io/badge/version-5.0-blue.svg)](https://github.com/PranathiBs/Pit-stop-F1-Prediction-and-Gran-Prix-calendar--master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -128,12 +126,6 @@ Contributions make the open source community amazing!
 3. Commit Changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
